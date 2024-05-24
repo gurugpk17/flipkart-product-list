@@ -1,8 +1,8 @@
 import React from "react";
 import data from "./spec.json";
 
-export default function ProductLeft(){
-    return(
+export default function ProductLeft() {
+    return (
         <div className="Product-left">
             <div className="Product-left-header">
                 <h4>Filters</h4>
@@ -10,10 +10,11 @@ export default function ProductLeft(){
             <hr className="horizontal-line" />
             <div className="categories-path">
                 <h4>CATEGORIES</h4>
-                <h5 style={{display:"flex", alignItems:"center", gap:'5px', marginLeft:'5%', color:"grey", marginTop:'-2%'  }}>
-                    <i className="fa fa-angle-left"></i><a href="#none" alt="Computers">Computers</a>
+                <h5 style={{ display: "flex", alignItems: "center", gap: '5px', marginLeft: '5%', color: "grey", marginTop: '-2%' }}>
+                    <i className="fa fa-angle-left"></i>
+                    <button className="link-button">Computers</button>
                 </h5>
-                <h5 style={{marginLeft:'9%', marginTop:'-2%' }}>Laptops</h5>
+                <h5 style={{ marginLeft: '9%', marginTop: '-2%' }}>Laptops</h5>
             </div>
             <hr className="horizontal-line" />
             <div className="price">
@@ -24,15 +25,15 @@ export default function ProductLeft(){
                 </div>
             </div>
             <hr className="horizontal-line" />
-            {data.map((spec, index) => (    
+            {data.map((spec, index) => (
                 <div key={index}>
                     <div className="specs">
-                        <h4>{spec.spec}</h4>    
+                        <h4>{spec.spec}</h4>
                         <i className="fa fa-angle-right"></i>
                     </div>
                     <hr className="horizontal-line" />
                 </div>
             ))}
         </div>
-    )
+    );
 }

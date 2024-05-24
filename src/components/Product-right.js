@@ -7,23 +7,24 @@ export default function ProductRight() {
     return (
         <div className="Product-right">
             <div className="product-right-header">
-                <a className="path" href="#">
-                    <h6>Home
+                <button className="path link-button">
+                    <h6>
+                        Home
                         <i className="fa fa-angle-right"></i>
                         Computers
                         <i className="fa fa-angle-right"></i>
                         Laptops
                     </h6>
-                </a>
+                </button>
                 <h4 className="results-number">Showing 1 - 24 of 77 results for "laptops"</h4>
-                <a className="product-filter" href="#">
+                <div className="product-filter">
                     <h4>Sort By</h4>
                     <h4 style={{ color: "#2874F0" }}>Relevance</h4>
                     <h4>Popularity</h4>
                     <h4>Price - Low to High</h4>
                     <h4>Price - High to Low</h4>
                     <h4>Newest First</h4>
-                </a>
+                </div>
             </div>
             <hr className="horizontal-line" />
             {Data.map((data, index) => (

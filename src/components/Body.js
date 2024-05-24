@@ -5,12 +5,12 @@ export default function Body() {
         <div className="Body">
             <div className="categories1">
                 <button className="categories">
-                    <h3>Grocery </h3>
+                    <h3>Grocery</h3>
                 </button>
             </div>
             <div className="categories2">
                 <button className="categories">
-                    <h3>Mobiles </h3>
+                    <h3>Mobiles</h3>
                 </button>
             </div>
             <div className="categories1">
@@ -20,27 +20,27 @@ export default function Body() {
                     </h3>
                 </button>
                 <div className="cate-sub-content">
-                    <a className="sub-cate" href="#" alt="Fashion">
-                        <h3>Men's Wear </h3>
+                    <a className="sub-cate" href="#none" alt="Fashion">
+                        <h3>Men's Wear</h3>
                         <i className="fa fa-angle-right"></i>
                     </a>
                     <div className="sub-cate2">
                         <h4>More in Men's Wear</h4>
-                        <a href="#" alt="All">
+                        <a href="#none" alt="All">
                             <h3>All</h3>
                         </a>
-                        <a href="#" alt="Men's Formals">
+                        <a href="#none" alt="Men's Formals">
                             <h3>Men's Formals</h3>
                         </a>
-                        <a href="#" alt="Men's Casuals">
+                        <a href="#none" alt="Men's Casuals">
                             <h3>Men's Casuals</h3>
                         </a>
                     </div>
-                    <a className="sub-cate" href="#" alt="Fashion">
+                    <a className="sub-cate" href="#none" alt="Fashion">
                         <h3>Women's Wear</h3>
                         <i className="fa fa-angle-right"></i>
                     </a>
-                    <a className="sub-cate" href="#" alt="Fashion">
+                    <a className="sub-cate" href="#none" alt="Fashion">
                         <h3>Kid's Wear</h3>
                         <i className="fa fa-angle-right"></i>
                     </a>
@@ -53,11 +53,11 @@ export default function Body() {
                     </h3>
                 </button>
                 <div className="cate-sub-content">
-                    <a className="sub-cate" href="#" alt="Electronics">
+                    <a className="sub-cate" href="#none" alt="Electronics">
                         <h3>My Account</h3>
                         <i className="fa fa-angle-right"></i>
                     </a>
-                    <a className="sub-cate" href="#" alt="Electronics">
+                    <a className="sub-cate" href="#none" alt="Electronics">
                         <h3>Super coin Zone</h3>
                         <i className="fa fa-angle-right"></i>
                     </a>
@@ -70,11 +70,11 @@ export default function Body() {
                     </h3>
                 </button>
                 <div className="cate-sub-content">
-                    <a className="sub-cate" href="#" alt="Home & Furniture">
+                    <a className="sub-cate" href="#none" alt="Home & Furniture">
                         <h3>My Account</h3>
                         <i className="fa fa-angle-right"></i>
                     </a>
-                    <a className="sub-cate" href="#" alt="Home & Furniture">
+                    <a className="sub-cate" href="#none" alt="Home & Furniture">
                         <h3>Super coin Zone</h3>
                         <i className="fa fa-angle-right"></i>
                     </a>
@@ -82,12 +82,12 @@ export default function Body() {
             </div>
             <div className="categories1">
                 <button className="categories">
-                    <h3>Appliances </h3>
+                    <h3>Appliances</h3>
                 </button>
             </div>
             <div className="categories1">
                 <button className="categories">
-                    <h3>Travel </h3>
+                    <h3>Travel</h3>
                 </button>
             </div>
             <div className="categories1">
@@ -97,11 +97,11 @@ export default function Body() {
                     </h3>
                 </button>
                 <div className="cate-sub-content">
-                    <a className="sub-cate" href="#" alt="Beauty, Toys & More">
+                    <a className="sub-cate" href="#none" alt="Beauty, Toys & More">
                         <h3>My Account</h3>
                         <i className="fa fa-angle-right"></i>
                     </a>
-                    <a className="sub-cate" href="#" alt="Beauty, Toys & More">
+                    <a className="sub-cate" href="#none" alt="Beauty, Toys & More">
                         <h3>Super coin Zone</h3>
                         <i className="fa fa-angle-right"></i>
                     </a>
@@ -114,11 +114,11 @@ export default function Body() {
                     </h3>
                 </button>
                 <div className="cate-sub-content">
-                    <a className="sub-cate" href="#" alt="Two Wheelers">
+                    <a className="sub-cate" href="#none" alt="Two Wheelers">
                         <h3>My Account</h3>
                         <i className="fa fa-angle-right"></i>
                     </a>
-                    <a className="sub-cate" href="#" alt="Two Wheelers">
+                    <a className="sub-cate" href="#none" alt="Two Wheelers">
                         <h3>Super coin Zone</h3>
                         <i className="fa fa-angle-right"></i>
                     </a>
