@@ -11,7 +11,7 @@ export default function ProductLeft(){
             <div className="categories-path">
                 <h4>CATEGORIES</h4>
                 <h5 style={{display:"flex", alignItems:"center", gap:'5px', marginLeft:'5%', color:"grey", marginTop:'-2%'  }}>
-                    <i className="fa fa-angle-left"></i>Computers
+                    <i className="fa fa-angle-left"></i><a href="#" alt="Computers">Computers</a>
                 </h5>
                 <h5 style={{marginLeft:'9%', marginTop:'-2%' }}>Laptops</h5>
             </div>

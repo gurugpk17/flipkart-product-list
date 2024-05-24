@@ -7,7 +7,7 @@ export default function ProductRight() {
     return (
         <div className="Product-right">
             <div className="product-right-header">
-                <a className="path">
+                <a className="path" href="#">
                     <h6>Home
                         <i className="fa fa-angle-right"></i>
                         Computers
@@ -16,7 +16,7 @@ export default function ProductRight() {
                     </h6>
                 </a>
                 <h4 className="results-number">Showing 1 - 24 of 77 results for "laptops"</h4>
-                <a className="product-filter">
+                <a className="product-filter" href="#">
                     <h4>Sort By</h4>
                     <h4 style={{ color: "#2874F0" }}>Relevance</h4>
                     <h4>Popularity</h4>
