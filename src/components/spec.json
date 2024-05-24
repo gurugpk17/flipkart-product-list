@@ -1,0 +1,17 @@
+[
+    { "spec": "BRAND" },
+    { "spec": "TYPE" },
+    { "spec": "PROCESSOR" },
+    { "spec": "PROCESSOR GENERATION" },
+    { "spec": "RAM CAPACITY" },
+    { "spec": "SSD CAPACITY" },
+    { "spec": "GRAPHICS PROCESSOR SERIES" },
+    { "spec": "SCREEN SIZE" },
+    { "spec": "RESOLUTION" },
+    { "spec": "OPERATING SYSTEM" },
+    { "spec": "USAGE" },
+    { "spec": "BATTERY LIFE" },
+    { "spec": "WEIGHT" },
+    { "spec": "WARRANTY" },
+    { "spec": "COLOR" }
+]
